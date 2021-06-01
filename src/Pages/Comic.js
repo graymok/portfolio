@@ -1,3 +1,6 @@
+import styles from '../CSS/Comic.module.css'
+
+
 const Comic = () => {
     return (
         <div>

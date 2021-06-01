@@ -1,3 +1,6 @@
+import styles from '../CSS/Projects.module.css'
+
+
 const Projects = () => {
     return (
         <div>

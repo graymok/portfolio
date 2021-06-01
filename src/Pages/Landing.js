@@ -1,3 +1,6 @@
+import styles from '../CSS/Landing.module.css'
+
+
 const Landing = () => {
     return (
         <div>
