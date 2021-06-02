@@ -3,8 +3,6 @@ import { Route } from 'react-router-dom'
 import NavBar from './Components/NavBar'
 import Projects from './Pages/Projects'
 import About from './Pages/About'
-import Contact from './Pages/Contact'
-import Landing from './Pages/Landing'
 import bg from './Assets/bg.jpg'
 
 function App() {
@@ -16,10 +14,8 @@ function App() {
     <div className={styles.container}>
       <NavBar />
       <div className={styles.routes}>
-        <Route exact path='/' render={() => { return <Landing />}} />
-        <Route path='/about' render={() => { return <About />}} />
+        <Route exact path='/' render={() => { return <About />}} />
         <Route path='/projects' render={() => { return <Projects />}} />
-        <Route path='/contact' render={() => { return <Contact />}} />
       </div>
       <img className={styles.background} src={bg} alt={backgroundAlt} />
       <div className={styles.overlay} />
