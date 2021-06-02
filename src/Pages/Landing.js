@@ -1,10 +1,11 @@
 import styles from '../CSS/Landing.module.css'
 
 
+
 const Landing = () => {
     return (
-        <div>
-            Hello from Landing!
+        <div className={styles.container}>
+            Hello from Landing
         </div>
     )
 }
