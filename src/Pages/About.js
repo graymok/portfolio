@@ -1,5 +1,6 @@
 import styles from '../CSS/About.module.css'
-
+import LanguageIcon from '../Components/LanguageIcon'
+import resume from '../Assets/tim-mok-resume-2021.pdf'
 
 const About = () => {
     return (
@@ -16,7 +17,7 @@ const About = () => {
                         <a href="https://github.com/graymok" target="_blank" className={styles.links} rel="noreferrer">
                             <img className={styles.contactImg} src="https://icongr.am/devicon/github-original.svg" alt="github icon" />GitHub
                         </a>
-                        <a href="https://github.com/graymok" target="_blank" className={styles.links} rel="noreferrer">
+                        <a href={resume} target="_blank" className={styles.links} rel="noreferrer">
                             <img className={styles.contactImg} src="https://icongr.am/entypo/v-card.svg?color=4d4d4d" alt="resume icon" />Resume
                         </a>
                     </div>
@@ -24,42 +25,15 @@ const About = () => {
                 <div className={styles.right}>
                     <span className={styles.title}>Programming Languages</span>
                     <div className={styles.languageBox}>
-                        <div className={styles.iconBox}>
-                            <img className={styles.iconImg} src="https://icongr.am/devicon/html5-original.svg" alt="html5 icon" />
-                            <span className={styles.iconText}>HTML5</span>
-                        </div>
-                        <div className={styles.iconBox}>
-                            <img className={styles.iconImg} src="https://icongr.am/devicon/css3-original.svg" alt="css3 icon" />
-                            <span className={styles.iconText}>CSS3</span>
-                        </div>
-                        <div className={styles.iconBox}>
-                            <img className={styles.iconImg} src="https://icongr.am/devicon/javascript-original.svg" alt="javascript icon" />
-                            <span className={styles.iconText}>Javascript</span>
-                        </div>
-                        <div className={styles.iconBox}>
-                            <img className={styles.iconImg} src="https://icongr.am/devicon/react-original.svg" alt="react icon" />
-                            <span className={styles.iconText}>React</span>
-                        </div>
-                        <div className={styles.iconBox}>
-                            <img className={styles.iconImg} src="https://icongr.am/devicon/python-original.svg" alt="python icon" />
-                            <span className={styles.iconText}>Python</span>
-                        </div>                    
-                        <div className={styles.iconBox}>
-                            <img className={styles.iconImg} src="https://icongr.am/devicon/nodejs-original.svg" alt="nodejs icon" />
-                            <span className={styles.iconText}>Node.js</span>
-                        </div>
-                        <div className={styles.iconBox}>
-                            <img className={styles.iconImg} src="https://icongr.am/devicon/express-original.svg" alt="express icon" />
-                            <span className={styles.iconText}>Express</span>
-                        </div>
-                        <div className={styles.iconBox}>
-                            <img className={styles.iconImg} src="https://icongr.am/devicon/sequelize-original.svg" alt="sequelize icon" />
-                            <span className={styles.iconText}>Sequelize</span>
-                        </div>                    
-                        <div className={styles.iconBox}>
-                            <img className={styles.iconImg} src="https://icongr.am/devicon/postgresql-original.svg" alt="postgresql icon" />
-                            <span className={styles.iconText}>PostgreSQL</span>
-                        </div>
+                        <LanguageIcon iconName={"html5"} />
+                        <LanguageIcon iconName={"css3"} />
+                        <LanguageIcon iconName={"javascript"} />
+                        <LanguageIcon iconName={"react"} />
+                        <LanguageIcon iconName={"python"} />
+                        <LanguageIcon iconName={"nodejs"} />
+                        <LanguageIcon iconName={"express"} />
+                        <LanguageIcon iconName={"sequelize"} />
+                        <LanguageIcon iconName={"postgresql"} />
                     </div>
                 </div>
             </div>

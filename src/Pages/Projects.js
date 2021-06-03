@@ -19,7 +19,7 @@ const Projects = () => {
     const wrkpointDescription = "Wrkpoint is an enterprise solution for managing work space reservations and supporting unique employee work styles. Completed in 5 days on 5/5/21 as third project for "
     const wrkpointTechnology = "HTML5, CSS3, Javascript, React, Express, Node.js, PostgreSQL"
     const wrkpointHeroku = "https://wrkpoint-u3-app.herokuapp.com/"
-    const wrkpointGitHub = "https://github.com/graymok/backend-sei-solo-project-3"
+    const wrkpointGitHub = "https://github.com/graymok/wrkpoint-app-frontend"
 
     const zeitgeistAlt = "zeitgeist screenshot"
     const zeitgeistTitle = "Zeitgeist"
