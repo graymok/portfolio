@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+.projectItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 5px hsla(0, 0%, 70%, 0.5);
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans';
+    margin: 20px;
+}
+
+.projectHeader {
+    background-color: hsl(0, 0%, 100%);
+    width: 40vw;
+}
+
+.projectFooter {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 100%);
+    width: 40vw;
+}
+
+.projectImage {
+    object-fit: contain;
+    width: 100%;
+    border-bottom: 1px solid hsl(0, 0%, 60%);
+}
+
+.projectText {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.projectLinks {
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+    color: hsl(0, 0%, 40%);
+}
+
+.links:hover {
+    color: hsl(0, 0%, 15%);
+}
+
+.contactImg {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(0, 0%, 15%);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.description, .technology {
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(0, 0%, 30%);
+    margin-bottom: 10px;
+}
+
+.technology {
+    font-style: italic;
+}
+
+.gaLink {
+    color: hsl(0, 0%, 30%);
+}
+
+.gaLink:hover {
+    color: hsl(0, 0%, 10%);  
+}
