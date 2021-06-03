@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@500&family=Nunito:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:wght@400;700&display=swap');
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: static;
 }
 
 .primary {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: baseline;
     max-width: 80vw;
     margin: 5px;
 }
@@ -126,22 +127,16 @@
     margin-bottom: 5px;
 }
 
-
-
-@media (max-width: 1440px) {
+@media (max-width: 1100px) {
     .primary {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 95vw;
     }
     .left {
         align-items: center;
         text-align: center;
     }
-}
-
-@media (max-width: 1024px) {
     .headline {
         font-size: 60px;
     }
@@ -162,7 +157,7 @@
         text-align: center;
     }
     .tagline {
-        font-size: 14px;
+        font-size: 13px;
     }
     .iconBox {
         margin: 5px;

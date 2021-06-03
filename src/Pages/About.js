@@ -60,10 +60,6 @@ const About = () => {
                             <img className={styles.iconImg} src="https://icongr.am/devicon/postgresql-original.svg" alt="postgresql icon" />
                             <span className={styles.iconText}>PostgreSQL</span>
                         </div>
-                        <div className={styles.iconBox}>
-                            <img className={styles.iconImg} src="https://icongr.am/devicon/github-original.svg" alt="github icon" />
-                            <span className={styles.iconText}>GitHub</span>
-                        </div>
                     </div>
                 </div>
             </div>
