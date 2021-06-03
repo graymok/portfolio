@@ -1,13 +1,10 @@
 import styles from '../CSS/NavBar.module.css'
-import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import logo from '../Assets/logo512.png'
-import logoActive from '../Assets/logo512-alt.png'
 
 const NavBar = () => {
 
     const logoAlt = 'Website logo'
-    const [logoActive, setLogoActive] = useState(false)
 
     return (
         <nav className={styles.container}>

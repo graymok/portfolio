@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid hsl(0, 0%, 80%);
     box-shadow: 0 1px 5px hsla(0, 0%, 70%, 0.5);
     background-color: hsl(0, 0%, 100%);
     font-family: 'Open Sans';
@@ -12,14 +13,14 @@
 
 .projectHeader {
     background-color: hsl(0, 0%, 100%);
-    width: 40vw;
+    max-width: 800px;
 }
 
 .projectFooter {
     display: flex;
     flex-direction: row;
     background-color: hsl(0, 0%, 100%);
-    width: 40vw;
+    max-width: 800px;
 }
 
 .projectImage {
@@ -37,9 +38,15 @@
     padding: 10px;
 }
 
-.projectLinks {
+.projectLinksBox {
     width: 30%;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectLinks {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -69,12 +76,16 @@
     margin-bottom: 5px;
 }
 
-.title {
+.title, .mobileTitle {
     font-size: 18px;
     font-weight: 700;
     color: hsl(0, 0%, 15%);
     text-transform: uppercase;
     margin-bottom: 15px;
+}
+
+.mobileTitle {
+    opacity: 0;
 }
 
 .description, .technology {
@@ -94,4 +105,39 @@
 
 .gaLink:hover {
     color: hsl(0, 0%, 10%);  
+}
+
+@media (max-width: 1100px) {
+
+}
+
+@media (max-width: 880px) {
+    .projectFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .projectText {
+        display: none;
+    }
+    .mobileTitle {
+        font-size: 14px;
+        opacity: 1;
+    }
+    .projectLinksBox {
+        width: 100%;
+        padding: 2px;
+    }
+    .links {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .projectItem {
+        margin: 10px;
+    }
+    .contactImg {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 2px;
+    }
 }
