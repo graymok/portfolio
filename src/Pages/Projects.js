@@ -12,21 +12,21 @@ const Projects = () => {
     const kyberDescription = "Kyber Parker is a boutique, direct-to-consumer company that sells reclaimed kyber crystals to force wielders looking to craft a high-quality lightsaber. Completed in 7 days on 5/18/21 as the final solo project for "
     const kyberTechnology = "React, Javascript, Python, Flask, SQLAlchemy, PostgreSQL, CSS3, HTML5"
     const kyberHeroku = "https://kyber-parker.herokuapp.com/"
-    const kyberGitHub = "https://github.com/graymok/frontend-sei-solo-project-4"
+    const kyberGitHub = "https://github.com/tim-mok/frontend-sei-solo-project-4"
 
     const wrkpointAlt = "wrkpoint screenshot"
     const wrkpointTitle = "Wrkpoint"
     const wrkpointDescription = "Wrkpoint is an enterprise solution for managing work space reservations and supporting unique employee work styles. Completed in 5 days on 5/5/21 as the third solo project for "
     const wrkpointTechnology = "React, Javascript, Express, Node.js, Sequelize, PostgreSQL, CSS3, HTML5"
     const wrkpointHeroku = "https://wrkpoint-u3-app.herokuapp.com/"
-    const wrkpointGitHub = "https://github.com/graymok/wrkpoint-app-frontend"
+    const wrkpointGitHub = "https://github.com/tim-mok/wrkpoint-app-frontend"
 
     const zeitgeistAlt = "zeitgeist screenshot"
     const zeitgeistTitle = "Zeitgeist"
     const zeitgeistDescription = "Zeitgeist is a personal news aggregator, allowing users to search for news from a country origin of their choice and to bookmark interesting articles. Completed in 5 days on 4/14/21 as the second solo project for "
     const zeitgeistTechnology = "Javascript, Express, Node.js, Sequelize, PostgreSQL, CSS3, HTML5, RESTful API"
     const zeitgeistHeroku = "https://zeitgeist-news-app.herokuapp.com/"
-    const zeitgeistGitHub = "https://github.com/graymok/frontend-sei-solo-project-2"
+    const zeitgeistGitHub = "https://github.com/tim-mok/frontend-sei-solo-project-2"
 
     return (
         <div className={styles.container}>

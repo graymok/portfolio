@@ -14,7 +14,7 @@ const About = () => {
                         <a href="https://www.linkedin.com/in/tim-mok/" target="_blank" className={styles.links} rel="noreferrer">
                             <img className={styles.contactImg} src="https://icongr.am/devicon/linkedin-original.svg" alt="linkedin icon" />LinkedIn
                         </a>
-                        <a href="https://github.com/graymok" target="_blank" className={styles.links} rel="noreferrer">
+                        <a href="https://github.com/tim-mok" target="_blank" className={styles.links} rel="noreferrer">
                             <img className={styles.contactImg} src="https://icongr.am/devicon/github-original.svg" alt="github icon" />GitHub
                         </a>
                         <a href={resume} target="_blank" className={styles.links} rel="noreferrer">
