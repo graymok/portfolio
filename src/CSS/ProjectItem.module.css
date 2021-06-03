@@ -36,6 +36,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding: 10px;
+    padding-left: 25px;
 }
 
 .projectLinksBox {
@@ -96,7 +97,7 @@
 }
 
 .technology {
-    font-style: italic;
+    font-weight: 700;
 }
 
 .gaLink {

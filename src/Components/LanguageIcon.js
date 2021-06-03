@@ -7,8 +7,8 @@ import 'react-lazy-load-image-component/src/effects/opacity.css'
 const LanguageIcon = (props) => {
     return (
         <div className={styles.iconBox}>
-            <LazyLoadImage className={styles.iconImg} src={`https://icongr.am/devicon/${props.iconName}-original.svg`} alt={props.iconName} effect="opacity"/>
-            <span className={styles.iconText}>HTML5</span>
+            <LazyLoadImage className={styles.iconImg} src={`https://icongr.am/devicon/${props.iconURL}-original.svg`} alt={props.iconURL} effect="opacity"/>
+            <span className={styles.iconText}>{props.iconName}</span>
         </div>            
     )
 }

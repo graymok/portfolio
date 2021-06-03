@@ -9,7 +9,7 @@ const About = () => {
                 <div className={styles.left}>
                     <span className={styles.headline}>Tim Mok</span>
                     <span className={styles.tag}>Full Stack Developer</span>
-                    <span className={styles.tagline}>Through my code and focus on the user, I deliver experiences and products that are impactful, intuitive, and inclusive.</span>
+                    <span className={styles.tagline}>With well-designed code, empathy for the user journey, and a deep understanding of strategic business goals, I deliver experiences and products that are impactful, intuitive, and inclusive.</span>
                     <div className={styles.contactBox}>
                         <a href="https://www.linkedin.com/in/tim-mok/" target="_blank" className={styles.links} rel="noreferrer">
                             <img className={styles.contactImg} src="https://icongr.am/devicon/linkedin-original.svg" alt="linkedin icon" />LinkedIn
@@ -25,15 +25,15 @@ const About = () => {
                 <div className={styles.right}>
                     <span className={styles.title}>Programming Languages</span>
                     <div className={styles.languageBox}>
-                        <LanguageIcon iconName={"html5"} />
-                        <LanguageIcon iconName={"css3"} />
-                        <LanguageIcon iconName={"javascript"} />
-                        <LanguageIcon iconName={"react"} />
-                        <LanguageIcon iconName={"python"} />
-                        <LanguageIcon iconName={"nodejs"} />
-                        <LanguageIcon iconName={"express"} />
-                        <LanguageIcon iconName={"sequelize"} />
-                        <LanguageIcon iconName={"postgresql"} />
+                        <LanguageIcon iconName={"Javascript"} iconURL={"javascript"} />
+                        <LanguageIcon iconName={"React"} iconURL={"react"} />
+                        <LanguageIcon iconName={"Python"} iconURL={"python"} />
+                        <LanguageIcon iconName={"Node.js"} iconURL={"nodejs"} />
+                        <LanguageIcon iconName={"Express"} iconURL={"express"} />
+                        <LanguageIcon iconName={"Sequelize"} iconURL={"sequelize"} />
+                        <LanguageIcon iconName={"PostgreSQL"} iconURL={"postgresql"} />
+                        <LanguageIcon iconName={"CSS3"} iconURL={"css3"} />
+                        <LanguageIcon iconName={"HTML5"} iconURL={"html5"} />
                     </div>
                 </div>
             </div>
