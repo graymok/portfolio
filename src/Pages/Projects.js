@@ -17,14 +17,14 @@ const Projects = () => {
     const wrkpointAlt = "wrkpoint screenshot"
     const wrkpointTitle = "Wrkpoint"
     const wrkpointDescription = "Wrkpoint is an enterprise solution for managing work space reservations and supporting unique employee work styles. Completed in 5 days on 5/5/21 as third project for "
-    const wrkpointTechnology = "HTML5, CSS3, Javascript, React, Express, Node.js, PostgreSQL"
+    const wrkpointTechnology = "HTML5, CSS3, Javascript, React, Express, Node.js, Sequelize, PostgreSQL"
     const wrkpointHeroku = "https://wrkpoint-u3-app.herokuapp.com/"
     const wrkpointGitHub = "https://github.com/graymok/wrkpoint-app-frontend"
 
     const zeitgeistAlt = "zeitgeist screenshot"
     const zeitgeistTitle = "Zeitgeist"
     const zeitgeistDescription = "Zeitgeist is a personal news aggregator, allowing users to search for news from a country origin of their choice and to bookmark interesting articles. Completed in 5 days on 4/14/21 as second project for "
-    const zeitgeistTechnology = "HTML5, CSS3, Javascript, Express, Node.js, RESTful API, PostgreSQL"
+    const zeitgeistTechnology = "HTML5, CSS3, Javascript, Express, Node.js, Sequelize, PostgreSQL, RESTful API"
     const zeitgeistHeroku = "https://zeitgeist-news-app.herokuapp.com/"
     const zeitgeistGitHub = "https://github.com/graymok/frontend-sei-solo-project-2"
 
