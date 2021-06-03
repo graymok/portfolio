@@ -107,11 +107,7 @@
     color: hsl(0, 0%, 10%);  
 }
 
-@media (max-width: 1100px) {
-
-}
-
-@media (max-width: 880px) {
+@media only screen and (max-width: 880px) {
     .projectFooter {
         display: flex;
         flex-direction: column;
