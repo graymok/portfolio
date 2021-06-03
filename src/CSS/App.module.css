@@ -12,7 +12,7 @@
 .routes {
     position: absolute;
     z-index: 3;
-    top: 150px;
+    top: 110px;
 }
 
 .overlay {
@@ -37,6 +37,6 @@
 
 @media (max-width: 880px) {
     .routes {
-        top: 120px;
+        top: 80px;
     }
 }
