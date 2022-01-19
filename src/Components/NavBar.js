@@ -2,6 +2,8 @@ import styles from '../CSS/NavBar.module.css'
 import { NavLink } from 'react-router-dom'
 import logo from '../Assets/logo512.png'
 
+// Component for page navigation
+
 const NavBar = () => {
 
     const logoAlt = 'Website logo'

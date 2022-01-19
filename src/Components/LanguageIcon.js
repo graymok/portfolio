@@ -3,6 +3,7 @@ import React from 'react'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/opacity.css'
 
+// Reusable component for each programming language icon
 
 const LanguageIcon = (props) => {
     return (

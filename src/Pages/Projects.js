@@ -7,6 +7,8 @@ import ProjectItem from '../Components/ProjectItem'
 
 const Projects = () => {
 
+    // The following variables are specific details for each project listing to be rendered through the reusable component, ProjectItem
+
     const kyberAlt = "kyber parker screenshot"
     const kyberTitle = "Kyber Parker"
     const kyberDescription = "Kyber Parker is a boutique, direct-to-consumer company that sells reclaimed kyber crystals to force wielders looking to craft a high-quality lightsaber. Completed in 7 days on 5/18/21 as the final solo project for "
